@@ -6,4 +6,12 @@
     <string name="radiobutton3">Shop</string>
     <string name="radiobutton4">Action</string>
     <string name="footprint_type">Footprint Type</string>
+    <string name="record_emission">Record Emission</string>
+    <string name="carbon_recorder">Carbon Recorder</string>
+    <string name="food">Food</string>
+    <string name="shop">Shop</string>
+    <string name="travel">Travel</string>
+    <string name="action">Action</string>
+    <string name="carbon_footprint_tracker">Carbon Footprint Tracker</string>
+    <string name="earthview">earthview</string>
 </resources>

@@ -17,7 +17,7 @@
         android:shadowDx="1.5"
         android:shadowDy="1.3"
         android:shadowRadius="1.6"
-        android:text="Carbon Recorder"
+        android:text="@string/carbon_recorder"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="36dp"
@@ -27,7 +27,7 @@
         app:layout_constraintHorizontal_bias="0.694"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.149" />
+        app:layout_constraintVertical_bias="0.173" />
 
     <TextView
         android:id="@+id/textView2"
@@ -55,7 +55,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.574">
+        app:layout_constraintVertical_bias="0.616">
 
 
         <RadioButton
@@ -63,14 +63,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserrat"
-            android:text="Travel"
+            android:text="@string/travel"
             android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textSize="24dp"
             android:textStyle="bold"
-            android:layout_centerVertical="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.501"
@@ -80,21 +77,18 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="10dp" />
+            android:layout_height="20dp" />
 
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserrat"
-            android:text="Food"
+            android:text="@string/food"
             android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textSize="24dp"
             android:textStyle="bold"
-            android:layout_centerVertical="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
@@ -102,19 +96,20 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.478" />
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
         <RadioButton
             android:id="@+id/radioButton4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserrat"
-            android:text="Action"
+            android:text="@string/action"
             android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textSize="24dp"
             android:textStyle="bold"
-            android:layout_centerVertical="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.516"
@@ -122,15 +117,17 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.724" />
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+
         <RadioButton
             android:id="@+id/radioButton3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:layout_centerVertical="true"
             android:fontFamily="@font/montserrat"
-            android:text="Shop"
+            android:text="@string/shop"
             android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textSize="24dp"
@@ -150,7 +147,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/myorange"
         android:fontFamily="@font/montserrat"
-        android:text="Record Emission"
+        android:text="@string/record_emission"
         android:textColor="@color/white"
         android:textSize="22dp"
         android:textStyle="bold"
@@ -158,6 +155,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.856" />
+        app:layout_constraintVertical_bias="0.893" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
