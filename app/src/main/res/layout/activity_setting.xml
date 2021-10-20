@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/mygreen"
+    android:background="@color/my_green"
     tools:context=".settingActivity">
 
 
@@ -109,7 +109,7 @@
         android:id="@+id/imageButton"
         android:layout_width="47dp"
         android:layout_height="34dp"
-        android:background="@color/mygreen"
+        android:background="@color/my_green"
         app:srcCompat="@android:drawable/ic_menu_help"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="41dp"
@@ -119,7 +119,7 @@
         android:id="@+id/imageButton2"
         android:layout_width="40dp"
         android:layout_height="39dp"
-        android:background="@color/mygreen"
+        android:background="@color/my_green"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@android:drawable/btn_star_big_on"
@@ -130,7 +130,7 @@
         android:id="@+id/imageButton3"
         android:layout_width="40dp"
         android:layout_height="37dp"
-        android:background="@color/mygreen"
+        android:background="@color/my_green"
         app:srcCompat="?attr/actionModeShareDrawable"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="327dp"

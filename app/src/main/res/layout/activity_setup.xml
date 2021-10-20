@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/mygreen"
+    android:background="@color/my_green"
     tools:context=".setupActivity">
 
     <EditText
@@ -71,7 +71,7 @@
         android:enabled="false"
         android:text="@string/action_sign_in_long"
         android:textColor="@color/white"
-        app:iconTint="@color/myorange"
+        app:iconTint="@color/my_orange"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"

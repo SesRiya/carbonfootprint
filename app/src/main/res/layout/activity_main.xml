@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/mygreen"
+    android:background="@color/my_green"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/getStartedBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/myorange"
+        android:backgroundTint="@color/my_orange"
         android:fontFamily="@font/montserrat"
         android:justificationMode="inter_word"
         android:onClick="getStartedButtonClick"
@@ -34,7 +34,6 @@
         android:id="@+id/imageView"
         android:layout_width="354dp"
         android:layout_height="394dp"
-        android:contentDescription="@string/earthview"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
